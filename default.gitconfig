@@ -1,0 +1,13 @@
+[push]
+	default = simple
+[user]
+	email = vas.terzo@gmail.com
+	name = vassilis
+[core]
+	editor = vim
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[pull]
+	rebase = true
+[branch]
+	autosetuprebase = always
